@@ -27,3 +27,4 @@ jobs:
         dotnet nuget push ./src/*.nupkg \
           --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
           --source https://dev.nugettest.org/api/v2/package
+          
