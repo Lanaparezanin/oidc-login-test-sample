@@ -15,7 +15,7 @@ jobs:
         
     - name: NuGet Login
       uses: NuGet/login@v1
-      id: login
+      id: loginn
       with:
         user: lparezanin
         audience: https://dev.nugettest.org
