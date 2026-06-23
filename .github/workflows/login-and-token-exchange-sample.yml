@@ -19,7 +19,7 @@ jobs:
       id: loginn
       with:
         user: lparezanin
-        token-service-url: https://dev.nugettest.org/api/v2/token
+        token-service-url: https://dev.nugettest.org/api/v2/package
         audience: https://dev.nugettest.org
 
 
