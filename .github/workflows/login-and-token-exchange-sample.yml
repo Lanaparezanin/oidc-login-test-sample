@@ -27,6 +27,6 @@ jobs:
     - name: Push package
       run: |
         dotnet nuget push ./src/*.nupkg \
-          ---api-key "${{ steps.login.outputs.api_key }}" \
+          --api-key "${{ steps.login.outputs.api_key }}" \
           --source https://dev.nugettest.org/api/v2/package
           
