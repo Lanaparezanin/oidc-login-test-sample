@@ -25,6 +25,6 @@ jobs:
 
 
     - name: Push package
-      run: dotnet nuget push ./src/*.nupkg --api-key ${{steps.login.outputs.NUGET_API_KEY}} --source https://dev.nugettest.org/v3/index.json
+      run:  dotnet nuget push ./src/*.nupkg --api-key "${{steps.login.outputs.NUGET_API_KEY}}" --source https://dev.nugettest.org/v3/index.json
 
           
